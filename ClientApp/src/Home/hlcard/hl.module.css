@@ -1,0 +1,4 @@
+.hlhover {
+  background-image: linear-gradient(to bottom, #fff 10%, #bead8f);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}

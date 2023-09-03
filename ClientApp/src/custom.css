@@ -1,0 +1,22 @@
+/* Provide sufficient contrast against white background */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: chamberi;
+  src: url("font/chamberi-headline-regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: chamberi-bold;
+  src: url("font/chamberi-headline-bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@layer base {
+  html {
+    font-family: "chamberi", sans-serif;
+  }
+}
